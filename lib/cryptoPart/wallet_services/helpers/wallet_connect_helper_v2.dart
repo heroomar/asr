@@ -36,7 +36,7 @@ class WalletConnectHelperV2 {
     name: 'Binance',
     logo: '',
     color: Colors.transparent,
-    isTestnet: true,
+    isTestnet: false,
     rpc: ['https://bsc-dataseed4.binance.org/'],
   );
 
@@ -49,11 +49,11 @@ class WalletConnectHelperV2 {
 
 
     web3App = await Web3App.createInstance(
-      projectId: '9338bf32e7741f817d2a05a2cf4f6678',
+      projectId: '601fe60b50eb3fffa35f902e6d30b4b6',
       metadata: const PairingMetadata(
-        name: 'coodes',
-        description: 'mr bebo from coodes.org',
-        url: 'https://www.coodes.org/',
+        name: 'ASR',
+        description: 'ASr Coin for all User',
+        url: 'https://www.ASR.org/',
         icons: [
           'https://coodes.org/wp-content/uploads/2020/07/ic.png'
         ],
